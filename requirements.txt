@@ -1,0 +1,8 @@
+annoy==1.8.0
+Flask==0.11.1
+Flask-Cors==2.1.2
+grpcio==0.15.0
+numpy==1.11.1
+protobuf==3.0.0b2
+scipy==0.17.1
+tensorflow==0.10.0rc0
