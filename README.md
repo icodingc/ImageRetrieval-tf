@@ -7,3 +7,6 @@
 几个检索实例
 ![](https://github.com/icodingc/image-retrieval-demo/blob/master/examples/eg1.png)
 ![](https://github.com/icodingc/image-retrieval-demo/blob/master/examples/eg2.png)
+## Future
+- 抽出的特征不返回client,直接在server 上计算knn。
+- 在web demo 界面上显示label。
