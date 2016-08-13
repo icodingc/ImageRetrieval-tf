@@ -1,0 +1,270 @@
+.m-t{
+    margin-top: 15px;
+}
+
+body{
+   min-width:780px; /* suppose you want minimun width of 1000px */
+   /*width: auto !important;  !* Firefox will set width as auto *!*/
+   /*width:1500px;             !* As IE ignores !important it will set width as 1000px; *!*/
+   overflow-x: auto !important;
+}
+
+
+#output_canvas{
+    background-color: white;
+    background-image: linear-gradient(45deg, #eee 25%, transparent 25%, transparent 75%, #eee 75%, #eee),
+    linear-gradient(45deg, #eee 25%, transparent 25%, transparent 75%, #eee 75%, #eee);
+    background-size:30px 30px;
+    background-position:0 0, 15px 15px
+}
+
+canvas
+{
+    border: dashed 1px #808080;
+}
+
+
+.js-span, .jsfeat-span{
+    text-align:center;
+}
+
+.inner > label{
+    margin-top: 10px;
+}
+
+#canvas-background{
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+}
+
+#image-form{
+    display: inline-block;
+}
+
+#bg-color {
+    display: inline;
+}
+#yaxis {
+    display: none;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    position: absolute;
+    z-index: 9999;
+    top: 0px;
+    left: 0px;
+    height: 10px;
+    width: 10px;
+}
+
+
+input[type=range] {
+    display: inline;
+    width: 80px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 9px;
+}
+
+input[type=color] {
+    width: 60px;
+}
+
+#side_options, #center_options{
+    text-align:center;
+    height: 760px;
+}
+
+#side_options{
+    width:90px;
+    padding-left: 3px;
+}
+
+#center_options .btn-app {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.btn-move{
+    display: block;
+    margin-bottom: 7px;
+}
+.output, .input{
+    text-align:center;
+}
+
+.input {
+    width: 530px !important;
+}
+
+#search_quick{
+    margin-right: 30px;
+}
+
+#btnLoad{
+    margin-left: 0 !important;
+}
+
+.operations{
+    height: 71px;
+    text-align: left;
+}
+
+.operation_search{
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+.operations_output{
+    height: 71px;
+    text-align: center;
+}
+
+.canvas_name {
+    display: inline-block;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align:top;
+}
+.top {
+    display: table-cell;
+    vertical-align:top;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.close-button{
+    display: none !important;
+}
+
+#network_train{
+    height: 150px;
+    width: 100%;
+    text-align: left;
+}
+
+#network_test {
+    height: 300px;
+    width: 100%;
+    text-align: left;
+}
+
+#network{
+    height: 250px;
+    width: 100%;
+    text-align: left;
+}
+
+#network_json{
+    height: 200px;
+    width: 100%;
+    text-align: left;
+}
+
+.gui  {
+    display: inline-block;
+    width: 95%;
+    margin: 0 10px 0 10px;
+}
+
+.gui > .main{
+    width:100% !important;
+}
+
+#drawing-mode-options{
+    margin: 0 0 0 15px;
+}
+
+#clear{
+}
+
+#clear_mask{
+    margin-top: 10px;
+}
+.content {
+    padding-top: 0 !important;
+}
+
+#status{
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  margin: 15px 10% 3px 5px !important;
+  padding: 10px 30px 10px 10px !important;
+}
+#rasterize{
+    float: right;
+}
+
+#export{
+    float: left;
+}
+
+#drawing-mode-options > h5{
+    text-align: center;
+    margin: auto;
+}
+
+
+#canvas-bg {
+    float: left;
+    text-align: left;
+    height: 70px;
+}
+
+#canvas-wrapper{
+    position:relative;
+    width:650px;
+    margin: auto;
+}
+
+.drawing-mode {
+    display: inline-block;
+}
+
+.modal-body{
+    text-align: center;
+
+}
+
+#introIMG1{
+    width: 45%;
+    margin-top: 25px;
+    display: inline-block;
+}
+
+#introIMG2{
+    width: 45%;
+    margin-top: 25px;
+    display:inline-block;
+    margin-left: 8%;
+}
+
+div.hopscotch-bubble {
+    z-index: 0 !important;
+}
+
+.h4status{
+    display: inline-block;
+    margin-bottom: 0;
+}
+@media (max-width: 1290px){
+
+}
