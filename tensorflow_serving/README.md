@@ -32,3 +32,7 @@ bazel build inception_inference
 -------------
 client 很简单只需要几行[inception_client](https://github.com/icodingc/image-retrieval-demo/blob/master/tensorflow_serving/inception_client.py)
 #### 一个运行例子，传入的图片是./picture/01018723.jpg,一张衣服图片![](https://github.com/icodingc/image-retrieval-demo/blob/master/tensorflow_serving/picture/client.png)
+
+#### 其实到目前为止整个服务已经搭起来啦，有服务器端抽特征，客户端可以接受数据。
+#### 然后把接受到的2048d特征和以前的[num_examples * 2048]做knn最近邻比较，即可得到检索结果。
+#### 不过后边还是会做一个web_demo，可以很方便的检索图片。
