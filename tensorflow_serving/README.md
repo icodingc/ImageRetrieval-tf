@@ -27,6 +27,8 @@ bazel build inception_inference
 # 运行程序需要指定端口号，和exported model
 "Usage: inception_inference --port=9000 /path/to/exports";
 ```
+#### 一个运行例子![](https://github.com/icodingc/image-retrieval-demo/blob/master/tensorflow_serving/picture/rpc_server.png)
 客户端
 -------------
 client 很简单只需要几行[inception_client](https://github.com/icodingc/image-retrieval-demo/blob/master/tensorflow_serving/inception_client.py)
+#### 一个运行例子，传入的图片是./picture/01018723.jpg,一张衣服图片![](https://github.com/icodingc/image-retrieval-demo/blob/master/tensorflow_serving/picture/client.png)
