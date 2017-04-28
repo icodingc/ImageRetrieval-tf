@@ -13,6 +13,7 @@
 
 ## 3. 一个[web_demo基于Flask](https://github.com/icodingc/image-retrieval-demo/tree/master/visualsearch)修改自[VisualSearch](https://github.com/AKSHAYUBHAT/VisualSearchServer)
 
+## 4. 本项目采用的是TF0.9,而且可能不会再更新
 
 下边是几个检索例子
 ![](https://raw.githubusercontent.com/icodingc/ImageRetrieval-tf/master/examples/eg1.png)
